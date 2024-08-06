@@ -1,1 +1,1 @@
-package com.example.redis.repository;import org.springframework.data.repository.CrudRepository;public interface ItemRepository extends CrudRepository<Item, Long> {}
+package com.example.redis.repository;import com.example.redis.domain.Item;import org.springframework.data.jpa.repository.JpaRepository;public interface ItemRepository extends JpaRepository<Item, Long> {}
